@@ -31,7 +31,7 @@ const options = {
 
 
 mainFunc('en')
-dictonary()
+/* dictonary() */
 oneLength.textContent = `${oneArea.value.length}/10000`
 function mainFunc(to){
     fetch(`https://microsoft-translator-text.p.rapidapi.com/translate?to=${to}&api-version=3.0&profanityAction=NoAction&textType=plain`, options)
