@@ -11,6 +11,7 @@ textarea {
     resize: none;
     border: none;
     padding: 12px;
+    width: 85%;
 }
 
 textarea:focus{
@@ -81,4 +82,27 @@ span {
     font-size: 16px;
     font-weight: 400;
     margin-right: 4px;
+}
+
+.yes-no {
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .yes-no{
+        display: block;
+    }
+    .page-content {
+        padding: 0;
+    }
+
+    .ins-left {
+        border-radius: 0;
+    }
+    .ins-rigth {
+        border-bottom-left-radius: 12px
+    }
+    span {
+        font-size: 16px;
+    }
 }
